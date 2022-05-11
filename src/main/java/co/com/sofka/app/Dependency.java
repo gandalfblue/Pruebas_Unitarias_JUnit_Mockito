@@ -1,7 +1,5 @@
 package co.com.sofka.app;
-
 public class Dependency {
-
     private final SubDependency subDependency;
 
     public Dependency(SubDependency subDependency) {

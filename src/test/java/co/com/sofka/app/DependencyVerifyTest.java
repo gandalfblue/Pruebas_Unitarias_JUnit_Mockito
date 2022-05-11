@@ -46,9 +46,5 @@ public class DependencyVerifyTest {
         dependency.addTwo(4);
 
         Mockito.verify(dependency, Mockito.times(2)).addTwo(anyInt());
-
-
     }
-
-
 }
